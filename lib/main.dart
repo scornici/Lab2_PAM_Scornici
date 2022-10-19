@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _rez = 0;
+  int _rez=0;
 
   @override
   Widget build(BuildContext context) {
@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 AlertDialog alert = AlertDialog(
                   title: const Text("Result"),
                   content: Text(
-                    "$_rez contains letter 'a'",
+                    "$_rez words contains letter 'a'",
                     style: const TextStyle(fontSize: 19),
                   ),
                   actions: <Widget>[
