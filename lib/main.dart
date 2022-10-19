@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        brightness: Brightness.dark,
+        primarySwatch: Colors.green,
       ),
       home: const MyHomePage(title: 'Laboratorul 2'),
     );
@@ -93,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   },
                 );
               },
-              child: Text("Calculate"),
+              child: const Text("Calculate"),
               ),
           ],
         ),
